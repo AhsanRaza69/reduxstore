@@ -28,7 +28,7 @@ const FooterService = () => {
         return(
             <ul key={ind} >
             <li className=' hover:text-white font-extralight my-3 text-md text-gray-300'>
-                <Link to={item.link}>
+                <Link to={item.link} onClick={() => window.scrollTo(0, 0)}>
                     {item.name}
                 </Link>
             </li>

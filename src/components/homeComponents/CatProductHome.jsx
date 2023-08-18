@@ -59,8 +59,8 @@ const CatProductHome = () => {
     <div>
       <div className='flex justify-center my-16'>
         <div className='flex flex-col text-center gap-4 my-4'>
-          <h2 className='text-4xl font-medium'>OUR PRODUCTS</h2>
-          <p className='sm:text-lg text-gray-600 md:text-xl'>
+          <h2 className= ' text-2xl md:text-4xl font-medium'>OUR PRODUCTS</h2>
+          <p className='sm:text-lg px-4 text-gray-600 md:text-xl'>
             Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. <br /> Voluptate exercitation incididunt
           </p>
         </div>

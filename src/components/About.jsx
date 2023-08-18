@@ -23,8 +23,8 @@ const About = () => {
   <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed" style={{ backgroundColor: "rgba(0, 0, 0, 0.3 )" }}>
     <div className="flex h-full items-center justify-center">
       <div className="text-white mt-8">
-        <h2 className="mb-4 text-5xl font-semibold">About page</h2>
-        <p className=' text-md'>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. <br/> Voluptate exercitation incididunt</p>
+        <h2 className="mb-4 text-4xl md:text-5xl font-semibold">About page</h2>
+        <p className=' text-sm px-4 md:text-md'>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. <br/> Voluptate exercitation incididunt</p>
         <p></p>
         <h4 className="mb-6 text-md font-semibold">
         
@@ -36,7 +36,7 @@ const About = () => {
 </div>
 
 
-<div className='grid grid-cols-1 md:grid-cols-2 px-11 py-16 my-16'>
+<div className='grid grid-cols-1 md:grid-cols-2 px-3 md:px-11 py-16 my-16'>
 <div className=' pl-16 pr-12 font-sans'>
   <p className='  text-amber-800 '>We Are Bakerfresh</p>
   <h2 className=' my-4 text-4xl'>WE LOVE CAKE</h2>
@@ -50,9 +50,9 @@ const About = () => {
   </div>
 </div>
 
-<div>
-  <div className='border h-[300px] my-16 px-6 relative border-amber-900 md:h-full pb-12'>
-    <img src="https://img.freepik.com/free-photo/chef-kneading-dough-with-flour_23-2148742196.jpg?w=740&t=st=1690195942~exp=1690196542~hmac=3d3ca721863d738ed04f3972cc941172ec632075ca48d48951d50c92655656ec" alt="" className=' md:h-full  border-r-none w-full top-[-20px]  left-[-20px] absolute' />
+<div className='px-4'>
+  <div className='border h-[250px] my-16 w  md:px-6 relative border-amber-900 md:h-full pb-12'>
+    <img src="https://img.freepik.com/free-photo/chef-kneading-dough-with-flour_23-2148742196.jpg?w=740&t=st=1690195942~exp=1690196542~hmac=3d3ca721863d738ed04f3972cc941172ec632075ca48d48951d50c92655656ec" alt="" className=' md:h-full  border-r-none md:w-full top-[-20px]  left-[-20px] absolute' />
   </div>
 </div>
 
@@ -93,10 +93,10 @@ style={{ backgroundImage: "url('https://images.unsplash.com/photo-1498530875991-
 </div>
 
 
-<div className='grid grid-cols-1 md:grid-cols-2 px-11 py-12 my-12'>
+<div className='grid grid-cols-1 md:grid-cols-2 px-4 md:px-11 py-12 my-12'>
 
 
-<div>
+<div className='px-4'>
   <div className='border h-[300px] my-16 px-6   relative border-amber-900 md:h-[500px] pb-12'>
     <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/1e/de/f1/over-under-coffee-west.jpg" alt="" className=' h-full border-r-none w-full top-[-20px]  right-[-20px] absolute' />
   </div>

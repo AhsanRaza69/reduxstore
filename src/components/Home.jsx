@@ -89,7 +89,7 @@ function Home() {
      
       <div 
       data-aos="zoom-out" data-aos-duration="2000"  
-      className=" relative h-[90vh] py- w-full  group">
+      className=" relative  h-[90vh] py- w-full  group">
       <div
       key={[currentIndex].id}
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}

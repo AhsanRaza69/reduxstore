@@ -36,8 +36,8 @@ const Card = ({id , img , title, price,item}) => {
        
        <div 
 key={id} 
-className={`relative overflow-hidden group   my-4 border   border-gray-200 product-container flex  mx-auto flex-col justify-evenly items-center gap-2 py-4 px-2 `}>
-<div  className='  object-fill h-[40vw] md:h-[20vw] md:w-[17vw]  flex justify-center'>
+className={`relative w-full overflow-hidden group   my-4 border   border-gray-200 product-container flex  mx-auto flex-col justify-evenly items-center gap-2 py-4 px-2 `}>
+<div  className='   w-[80%] md:h-[20vw] md:w-[17vw]  flex justify-center'>
 <img className='  h-full  w-full   ' src={img} alt="" />
 </div>
 <div className='flex flex-col text-center gap-3'>

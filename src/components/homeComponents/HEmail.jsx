@@ -3,35 +3,35 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const HEmail = () => {
-  const [shouldAnimate, setShouldAnimate] = useState(false);
+  // const [shouldAnimate, setShouldAnimate] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.scrollY;
-      const triggerPosition = 200; // Adjust this value as needed
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollY = window.scrollY;
+  //     const triggerPosition = 200; // Adjust this value as needed
 
-      if (scrollY >= triggerPosition) {
-        setShouldAnimate(true);
-      }
-    };
+  //     if (scrollY >= triggerPosition) {
+  //       setShouldAnimate(true);
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
-  useEffect(() => {
-    if (shouldAnimate) {
-      AOS.init();
-    }
-  }, [shouldAnimate]);
+  // useEffect(() => {
+  //   if (shouldAnimate) {
+  //     AOS.init();
+  //   }
+  // }, [shouldAnimate]);
 
   return (
     <div
-    data-aos="fade-left"
-    data-aos-duration="3000"
+    // data-aos="fade-left"
+    // data-aos-duration="3000"
       
       className="h-[350px] bg-cover bg-center text-white"
       style={{
@@ -42,7 +42,7 @@ const HEmail = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.5 )" }}
         className="flex h-full flex-col justify-center items-center lg:gap-12"
       >
-        <h2 className="text-2xl md:text-4xl">
+        <h2 className="text-lg md:text-4xl">
           STAY IN TOUCH & GET 10% OFF
         </h2>
         <form
@@ -52,7 +52,7 @@ const HEmail = () => {
           <div className="flex justify-between w-[100%] text-black py-5 px-8 bg-white">
             <label htmlFor="email" className="w-[80%]">
               <input
-                className="font-sans w-full text-xl outline-none"
+                className="font-sans w-full md:text-xl outline-none"
                 type="text"
                 name="email"
                 placeholder="Your email address"
@@ -61,7 +61,7 @@ const HEmail = () => {
             <button
               type="submit"
               onClick={() => console.log("submitted")}
-              className="text-xl hover:text-amber-900"
+              className="md:text-xl hover:text-amber-900"
             >
               Subscribe
             </button>
