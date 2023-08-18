@@ -12,7 +12,7 @@ import FixIcons from './components/FixIcons';
 import Login from './components/login';
 import ChechoutSuccess from './components/ChechoutSuccess';
 import Notfound from './components/Notfound';
-import { Card } from '@mui/material';
+// import { Card } from '@mui/material';  
 import ProductPage from './components/homeComponents/cart/ProductPage';
 
 import Wishlist from './ShopPage/Wishlist';
